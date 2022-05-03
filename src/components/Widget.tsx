@@ -6,10 +6,8 @@ import { FeedbackSelectOptionCard } from './FeedbackSelectOptionCard'
 export function Widget() {
 
   return (
-    <Popover className="absolute bottom-6 right-6 z-10">
-      <Popover.Panel
-        className={`absolute bottom-14 right-0 bg-[#ccc] rounded-xl animate-[visible_300ms_ease-in-out_forwards]`}
-      >
+    <Popover className="absolute bottom-6 right-6 md:bottom-10 md:right-10 z-10 flex flex-col items-end">
+      <Popover.Panel>
         <FeedbackSelectOptionCard />
       </Popover.Panel>
 
