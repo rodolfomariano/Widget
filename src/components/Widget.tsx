@@ -1,14 +1,15 @@
 
 import { ChatTeardropDots } from 'phosphor-react'
 import { Popover } from '@headlessui/react'
-import { FeedbackSelectOptionCard } from './FeedbackSelectOptionCard'
+import { WidgetForm } from './WidgetForm'
+
 
 export function Widget() {
 
   return (
     <Popover className="absolute bottom-6 right-6 md:bottom-10 md:right-10 z-10 flex flex-col items-end">
       <Popover.Panel>
-        <FeedbackSelectOptionCard />
+        <WidgetForm />
       </Popover.Panel>
 
 
