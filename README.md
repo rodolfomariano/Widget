@@ -32,7 +32,7 @@ npm install
 yarn
 ```
 
-Second, run the development server:
+Second, run the project:
 
 ```bash
 npm run dev
